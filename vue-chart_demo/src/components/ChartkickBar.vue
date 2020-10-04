@@ -5,7 +5,7 @@
     </div>
 
 <div>
-  <column-chart :data="dataSet" xtitle="Budget-Expense" ytitle="Cost" :colors="['#b00', '#666']"></column-chart>
+  <column-chart :data="dataSet" xtitle="Budget-Expense" ytitle="Cost" :colors="['#de98ab', '#98ddde']"></column-chart>
 </div>
   </div>
 </template>
