@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row mt-4">
       <div class="col-6">
-        <!-- <ChartBar /> -->
+        <ChartBar />
       </div>
         <div class="col-6">
         <ChartDoughnut />
@@ -21,7 +21,7 @@
        <ChartLine />
       </div>
         <div class="col-6">
-        <ChartBarSingle />
+        <ChartkickBar />
       </div>
     </div>
   
@@ -30,16 +30,16 @@
 </template>
 
 <script>
-// import ChartBar from "@/components/chart-bar";
+import ChartBar from "@/components/chart-bar";
 import ChartDoughnut from "@/components/chart-doughnut";
 import ChartLine from "@/components/chart-line";
-import ChartBarSingle from "@/components/test";
+import ChartkickBar from "@/components/ChartkickBar";
 export default {
    components: {
-    // ChartBar,
+    ChartBar,
     ChartDoughnut,
     ChartLine,
-    ChartBarSingle,
+    ChartkickBar,
   }
 
 }
