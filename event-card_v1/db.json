@@ -1,0 +1,22 @@
+{
+    "events":[{
+        "id":1,
+        "title":"Beatch Cleanup",
+        "date":"Tues Aug 19, 2020",
+        "time":"6:00",
+        "attendees":[
+        {"id":"abc1", "name":"Adam Jhor"},
+        {"id":"abc2", "name":"Martin daam"}
+        ]},
+        {
+        "id":2,
+        "title":"field Cleanup",
+        "date":"Tues Aug 20, 2020",
+        "time":"6:00",
+        "attendees":[
+        {"id":"abc3", "name":"Jhon Done"},
+        {"id":"abc4", "name":"king Disher"},
+        {"id":"abc5", "name":"Ama Watson"}
+        ]}
+    ]
+}

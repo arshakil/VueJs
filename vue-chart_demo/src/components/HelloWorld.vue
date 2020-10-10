@@ -1,7 +1,7 @@
 <template>
 <div>
     <h1>Chart Demo</h1>
-<div class="container">
+<div class="container" style="margin-bottom:200px">
     <div class="row mt-4">
       <div class="col-6">
         <ChartBar />
@@ -16,7 +16,7 @@
     <hr style="background:blue">
 
 
-        <div class="row mt-4">
+      <div class="row mt-4">
       <div class="col-6">
        <ChartLine />
       </div>

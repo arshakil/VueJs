@@ -3,10 +3,9 @@
     <div class="card-body">
       <h2 class="card-title">Bar</h2>
     </div>
-
-<div>
-  <column-chart :data="dataSet" xtitle="Budget-Expense" ytitle="Cost" :colors="['#de98ab', '#98ddde']"></column-chart>
-</div>
+  <div class="card-img-bottom">
+    <column-chart :data="dataSet" xtitle="Budget-Expense" ytitle="Cost" :colors="['#de98ab', '#98ddde']"></column-chart>
+  </div>
   </div>
 </template>
 
@@ -31,7 +30,7 @@ export default {
   },
   created(){
     this.dataSet[0].name="2022-2023"
-    this.dataSet[0].data.Budget=30
+    this.dataSet[0].data.Budget=70
     this.dataSet[0].data.Expense=10
   }
 };
